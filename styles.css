@@ -16,15 +16,23 @@
 a{
 	text-decoration: none;
 }
+.tabs{
+	background: #FAFAFA;
+}
 .grid-section{
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	height: 330px;
 	display: grid;
 	background: #FAFAFA;
-	grid-template-columns: 200px 1fr 1fr 1fr 1fr 200px;
-	grid-column-gap: 20px;
+	grid-template-columns: 180px 180px 180px 180px;
+	grid-column-gap: 60px;
 }
 /*=======================Section 1=========================*/
 .customer-engagement{
-	grid-column: 2/3;
+	width: 180px;
+	grid-column: 1/2;
 	background: white;
 	padding: 10%;
 	text-align: center;
@@ -40,6 +48,7 @@ a{
   transition:.3s;
 }
 .subtitle1{
+	line-height: 2em;
 	font-size: .95em;
 	color: #F5B500;
 }
@@ -50,12 +59,14 @@ a{
 	line-height: 1.4em;
 }
 .learn-more1{
+	line-height: 2em;
 	font-size: .9em;
 	color: #F5B500;
 }
 /*===========================Section 2===========================*/
 .e-commerce{
-	grid-column: 3/4;
+width: 180px;
+	grid-column: 2/3;
 	background: white;
 	padding: 12%;
 	text-align: center;
@@ -71,6 +82,7 @@ a{
   transition:.3s;
 }
 .subtitle2{
+	line-height: 2em;
 	font-size: .95em;
 	color: #80C803;
 }
@@ -81,12 +93,14 @@ a{
 	line-height: 1.4em;
 }
 .learn-more2{
+	line-height: 2em;
 	font-size: .9em;
 	color: #80C803;
 }
 /*============================Section 3===============================*/
 .appointments{
-	grid-column: 4/5;
+width: 180px;
+	grid-column: 3/4;
 	background: white;
 	padding: 12%;
 	text-align: center;
@@ -102,6 +116,7 @@ a{
   transition:.3s;
 }
 .subtitle3{
+	line-height: 2em;
 	font-size: .95em;
 	color: #80C803;
 }
@@ -112,12 +127,14 @@ a{
 	line-height: 1.4em;
 }
 .learn-more3{
+	line-height: 2em;
 	font-size: .9em;
 	color: #80C803;
 }
 /*===========================Section 4=======================================*/
 .marketplace{
-	grid-column: 5/6;
+width: 180px;
+	grid-column: 4/5;
 	background: white;
 	padding: 12%;
 	text-align: center;
@@ -133,6 +150,7 @@ a{
   transition:.3s;
 }
 .subtitle4{
+	line-height: 2em;
 	font-size: .95em;
 	color: #00C4A5;
 }
@@ -143,6 +161,7 @@ a{
 	line-height: 1.4em;
 }
 .learn-more4{
+	line-height: 2em;
 	font-size: .9em;
 	color: #00C4A5;
 }
@@ -169,6 +188,7 @@ a{
 }
 /*================================Pictures===========================================*/
 .pictures{
+	padding-top: 3%;
 	margin-left: auto;
 	margin-right: auto;
 	height: 500px;
@@ -269,9 +289,11 @@ grid-row: 2/3;
 }
 /*===================================Footer======================================================*/
 footer{
+	margin-left: auto;
+	margin-right: auto;
 	background: #1A2126;
 	display: grid;
-	grid-template-columns: 200px 1fr 1fr 1fr 1fr 200px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr 60px 60px 80px;
 	text-align: left;
 	padding-top: 4%;
@@ -294,10 +316,14 @@ h2{
 .software-products{
 	grid-column: 2/3;
 }
+.software-products, .hardware-products, .business-solutions, .about-square{
+margin-left: -260px;
+width: 300px;
+}
 .flag{
 	align-items: center;
 	display: grid;
-	grid-template-columns: .6fr 3fr 25fr 1fr 1fr 1fr;
+	grid-template-columns: 50px 80px 25fr 50px 50px 50px;
 	grid-row: 3/4;
 	grid-column: 2/6;
 	border-top: 1px solid #353B40;
